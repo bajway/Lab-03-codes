@@ -1,3 +1,4 @@
+//Program to find total fuel cost and total fuel consumed
 #include<stdio.h>
 int main(){
     //Declaring variables
