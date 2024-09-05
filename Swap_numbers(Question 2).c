@@ -1,3 +1,4 @@
+//Program to swap numbers
 #include<stdio.h>
 int main(){
     //Declaring variables
@@ -23,4 +24,4 @@ int main(){
 
     printf("After swapping numbers are %d %d", a,b);
     return 0;
-}
+}//End main
