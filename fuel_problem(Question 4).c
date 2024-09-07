@@ -4,13 +4,15 @@ int main(){
     //Declaring variables
     float average, fuel_AB, fuel_BA, total_fuel_consumed, cost_AB, cost_BA, total_cost;
     int distance=1207;
+    int price_per_litre_AB=118;
+    int price_per_litre_BA=123;
     printf("Enter your car's fuel average: ");
     scanf("%f", &average);
     if (average > 0)
     {
         // formula to calculate cost of fuel from A to B and B to A
-        cost_AB= (distance/average)*118;
-        cost_BA= (distance/average)*123;
+        cost_AB= (distance/average)*price_per_litre_AB;
+        cost_BA= (distance/average)*price_per_litre_BA;
         // formula to calculate fuel consumption from A to B and B to A
         // Fuel consumption will be same as distance is equal
         fuel_AB= distance/ average;
